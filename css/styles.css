@@ -205,6 +205,9 @@ address > a:hover {
 .current {
   color: var(--link_and_button_color);
 }
+.footer-a-style:hover {
+  color: var(--link_and_button_color);
+}
 
 /* ⬇ <<PORTFOLIO>> ⬇ */
 .title-button {
