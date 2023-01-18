@@ -56,7 +56,7 @@ button {
   padding-top: 0;
 }
 header {
-  padding: 17px 0;
+  padding: 25px 0;
   border-bottom: 1px solid #ececec;
 }
 .header-help {
@@ -231,6 +231,10 @@ footer {
 }
 address {
   font-style: normal;
+  margin-top: 20px;
+}
+.address-margin {
+  margin-bottom: 9px;
 }
 .footer-a-style {
   font-size: 14px;
@@ -292,34 +296,37 @@ address > a:hover {
 }
 .portfolio-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .portf-list {
   width: 370px;
-  border: 1px solid #eeeeee;
 }
 
 .portf-list > img {
   width: 100%;
-  height: 294px;
 }
 .portf-list > div {
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  border-top: 0;
 }
 .portf-list-h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .portf-list-p {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
   letter-spacing: 0.03em;
+}
+.current {
+  color: var(--link_and_button_color);
 }
